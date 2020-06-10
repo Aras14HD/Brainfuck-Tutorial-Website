@@ -1,0 +1,22 @@
+/* OPTIMIZE:  */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Mono:wght@300&display=swap');
+body {font-family: "Oxygen"}
+p.code {font-family: "Roboto Mono";}
+.code {font-family: "Roboto Mono";
+       background-color: lightgrey;
+       border-radius: 2pt;
+       padding: 2pt;
+       margin: 2pt;}
+#Index ul li {list-style-type: none;}
+#Index ol li {list-style: decimal;}
+.aln-l {text-align: left;
+        flex: auto;}
+.aln-r {text-align: right;
+        flex: auto;}
+.aln-m {text-align: center;
+        flex: auto;}
+footer {margin: 5pt;
+        margin-top: 10pt;
+        padding: 10pt;
+        background-color: lightblue;
+        display: flex;}
