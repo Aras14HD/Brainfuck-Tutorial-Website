@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <!-- OPTIMIZE:  -->
-<!-- Example code in /html/example-de.html -->
-<html lang="de" dir="ltr">
+<!-- Example code in /php/example-de.php -->
+<php lang="de" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../Projekt/css/main.css">
+    <link rel="stylesheet" href="../Brainfuck-Tutorial-Website/css/main.css">
     <title>Brainf*ck - Übersicht</title>
-    <script src="../Projekt/js/main.js"></script>
-    <script src="../Projekt/js/BF.js"></script>
+    <script src="../Brainfuck-Tutorial-Website/js/main.js"></script>
+    <script src="../Brainfuck-Tutorial-Website/js/BF.js"></script>
     <meta name="description" content="Eine Einführung in die Programmiersprache Brainfuck.">
   </head>
   <body>
@@ -18,7 +18,7 @@
     <nav id="Index">
       <details>
         <summary>Navigation</summary>
-        <embed type="text/html" src="../Projekt/html/index-de.html" width="100%" height="100pt">
+        <?php include '../Brainfuck-Tutorial-Website/php/index-de.php'; ?>
       </details>
     </nav>
     <main>
@@ -52,6 +52,6 @@
         <a href="#">nach →</a>
       </div>
     </footer>
-    <embed type="text/html" src="../Projekt/html/about-de.html" width="100%" height="30pt">
+    <?php include '../Brainfuck-Tutorial-Website/php/about-de.php'; ?>
   </body>
-</html>
+</php>

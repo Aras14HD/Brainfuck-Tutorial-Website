@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr">
+<php dir="ltr">
   <head>
     <link rel="stylesheet" href="../css/main.css">
   </head>
@@ -8,4 +8,4 @@
       Diese Seite nutzt die Schriftarten Oxygen und Roboto Mono von Google Fonts.
     </div>
   </body>
-</html>
+</php>

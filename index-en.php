@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <!-- OPTIMIZE:  -->
-<!-- Example code in /html/example-en.html -->
-<html lang="en" dir="ltr">
+<!-- Example code in /php/example-en.php -->
+<php lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../Projekt/css/main.css">
+    <link rel="stylesheet" href="../Brainfuck-Tutorial-Website/css/main.css">
     <title>Brainf*ck - Übersicht</title>
   </head>
   <body>
-  <script src="../Projekt/js/main.js"></script>
+  <script src="../Brainfuck-Tutorial-Website/js/main.js"></script>
     <header>
       <p><h1>Brainf*ck</h1></p>
       <p><h3>- Eine Esoterische Programmiersprache</h3></p>
@@ -22,7 +22,7 @@
             <details open>
               <summary>Languages</summary>
               <ul>
-                <li><a href="../Projekt/index-de.html">Deutsch</a></li>
+                <li><a href="../Brainfuck-Tutorial-Website/index-de.php">Deutsch</a></li>
                 <li>English</li>
               </ul>
             </details>
@@ -74,4 +74,4 @@
       </div>
     </footer>
   </body>
-</html>
+</php>

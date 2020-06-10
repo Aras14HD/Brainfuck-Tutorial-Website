@@ -8,10 +8,10 @@
     <ul>
       <li>
         <details>
-          <summary><a href="../index.html">Übersicht</a></summary>
+          <summary><a href="../index.php">Übersicht</a></summary>
           <ol>
             <li>
-              <a href="../index.html#rules">Regeln</a>
+              <a href="../index.php#rules">Regeln</a>
             </li>
           </ol>
         </details>

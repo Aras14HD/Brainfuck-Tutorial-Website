@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- OPTIMIZE:  -->
-<html lang="en" dir="ltr">
+<php lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/main.css">
@@ -14,7 +14,7 @@
       <details>
         <summary>Index</summary>
         <ul>
-          <li><a href="../index-en.html">Main</a></li>
+          <li><a href="../index-en.php">Main</a></li>
           <li>
             <details>
               <summary>First</summary>
@@ -44,11 +44,11 @@
         <a href="#">← before</a>
       </div>
       <div class="aln-m">
-        <a href="../index-de.html">Main</a>
+        <a href="../index-de.php">Main</a>
       </div>
       <div class="aln-r">
         <a href="#">after →</a>
       </div>
     </footer>
   </body>
-</html>
+</php>
