@@ -3,7 +3,8 @@
 <!-- Example code in /php/example-de.php -->
 <html lang="de" dir="ltr">
   <head>
-    <?php include '../Brainfuck-Tutorial-Website/php/head.php'; ?>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../Brainfuck-Tutorial-Website/css/main.css">
     <title>Brainf*ck - Übersicht</title>
     <meta name="description" content="Eine Einführung in die Programmiersprache Brainfuck.">
     <script src="../Brainfuck-Tutorial-Website/js/main.js"></script>
@@ -15,7 +16,41 @@
       <p><h3>- Eine Esoterische Programmiersprache</h3></p>
     </header>
     <nav id="Index">
-      <?php include '../Brainfuck-Tutorial-Website/php/index-de.php'; ?>
+      <div id="Index">
+        <details>
+          <summary>Navigation</summary>
+          <ul>
+            <li>
+              <details>
+                <summary><a href="../Brainfuck-Tutorial-Website/index.php">Übersicht</a></summary>
+                <ol>
+                  <li>
+                    <a href="../Brainfuck-Tutorial-Website/index.php#rules">Regeln</a>
+                  </li>
+                </ol>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary><a href="../Brainfuck-Tutorial-Website/php/adding-de.php">Addieren</a></summary>
+                <ol>
+                  <li>Artikel</li>
+                  <li>Artikel</li>
+                </ol>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Zweites Thema</summary>
+                <ol>
+                  <li>Artikel</li>
+                  <li>Artikel</li>
+                </ol>
+              </details>
+            </li>
+          </ul>
+        </details>
+      </div>
     </nav>
     <main>
       <p>BF(<a lang="en">Brainf*ck</a>) ist eine Programmiersprache mit nur 8 Zeichen:<b class="code">+ - . , [ ] &lt &gt</b>. Sie Basiert auf der <a href="https://de.wikipedia.org/wiki/Turingmaschine">Turingmaschine</a>, die aus einem unendlich langem
@@ -41,11 +76,11 @@
           <<<<<-]
         </div>
       </p>
-      <p>Auf den folgenden Seiten werden sie lernen, wie man BF benutzt. Auch werden einige Module gezeigt, die das Programmieren einfacher machen.</p>
+      <p>Auf den folgenden Seiten werden sie lernen, wie man BF benutzt und selbst ein kleines Programm schreiben. Auch werden einige Module gezeigt, die das Programmieren einfacher machen.</p>
     </main>
     <footer>
       <div class="aln-r">
-        <a href="#">nach →</a>
+        <a href="../Brainfuck-Tutorial-Website/php/adding-de.php">Zahlen addieren →</a>
       </div>
     </footer>
     <?php include '../Brainfuck-Tutorial-Website/php/about-de.php'; ?>

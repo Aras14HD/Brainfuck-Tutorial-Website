@@ -15,7 +15,7 @@
       </li>
       <li>
         <details>
-          <summary>Erstes Thema</summary>
+          <summary><a href="../php/adding-de.php">Addieren</a></summary>
           <ol>
             <li>Artikel</li>
             <li>Artikel</li>
