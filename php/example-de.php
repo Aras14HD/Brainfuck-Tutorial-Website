@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- OPTIMIZE:  -->
-<php lang="de" dir="ltr">
+<html lang="de" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/main.css">
@@ -32,4 +32,4 @@
     </footer>
     <iframe src="../php/about-de.php" seamless width="100%"></iframe>
   </body>
-</php>
+</html>

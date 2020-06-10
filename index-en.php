@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- OPTIMIZE:  -->
 <!-- Example code in /php/example-en.php -->
-<php lang="en" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../Brainfuck-Tutorial-Website/css/main.css">
@@ -74,4 +74,4 @@
       </div>
     </footer>
   </body>
-</php>
+</html>

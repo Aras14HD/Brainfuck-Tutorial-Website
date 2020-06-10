@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- OPTIMIZE:  -->
-<php lang="en" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/main.css">
@@ -51,4 +51,4 @@
       </div>
     </footer>
   </body>
-</php>
+</html>

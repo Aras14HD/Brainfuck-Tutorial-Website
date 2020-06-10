@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <!-- OPTIMIZE:  -->
 <!-- Example code in /php/example-de.php -->
-<php lang="de" dir="ltr">
+<html lang="de" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../Brainfuck-Tutorial-Website/css/main.css">
+    <?php include '../Brainfuck-Tutorial-Website/php/head.php'; ?>
     <title>Brainf*ck - Übersicht</title>
-    <script src="../Brainfuck-Tutorial-Website/js/main.js"></script>
-    <script src="../Brainfuck-Tutorial-Website/js/BF.js"></script>
     <meta name="description" content="Eine Einführung in die Programmiersprache Brainfuck.">
   </head>
   <body>
@@ -54,4 +51,4 @@
     </footer>
     <?php include '../Brainfuck-Tutorial-Website/php/about-de.php'; ?>
   </body>
-</php>
+</html>
