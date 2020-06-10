@@ -2,8 +2,7 @@
 <!-- OPTIMIZE:  -->
 <html lang="de" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/main.css">
+    <?php include '../php/head.php'; ?>
     <title>Brainf*ck - Beispielcode</title>
   </head>
   <body>
@@ -11,10 +10,7 @@
       Überschrift hier
     </header>
     <nav id="Index">
-      <details>
-        <summary>Navigation</summary>
-        <iframe src="../php/index-de.php" seamless width="100%"></iframe>
-      </details>
+      <?php include '../php/index-de.php'; ?>
     </nav>
     <main>
       Inhalt hier
@@ -30,6 +26,6 @@
         <a href="#">nach →</a>
       </div>
     </footer>
-    <iframe src="../php/about-de.php" seamless width="100%"></iframe>
+    <?php include '../php/about-de.php'; ?>
   </body>
 </html>

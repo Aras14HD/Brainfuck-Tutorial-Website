@@ -6,6 +6,8 @@
     <?php include '../Brainfuck-Tutorial-Website/php/head.php'; ?>
     <title>Brainf*ck - Übersicht</title>
     <meta name="description" content="Eine Einführung in die Programmiersprache Brainfuck.">
+    <script src="../Brainfuck-Tutorial-Website/js/main.js"></script>
+    <script src="../Brainfuck-Tutorial-Website/js/BF.js"></script>
   </head>
   <body>
     <header>
@@ -13,10 +15,7 @@
       <p><h3>- Eine Esoterische Programmiersprache</h3></p>
     </header>
     <nav id="Index">
-      <details>
-        <summary>Navigation</summary>
-        <?php include '../Brainfuck-Tutorial-Website/php/index-de.php'; ?>
-      </details>
+      <?php include '../Brainfuck-Tutorial-Website/php/index-de.php'; ?>
     </nav>
     <main>
       <p>BF(<a lang="en">Brainf*ck</a>) ist eine Programmiersprache mit nur 8 Zeichen:<b class="code">+ - . , [ ] &lt &gt</b>. Sie Basiert auf der <a href="https://de.wikipedia.org/wiki/Turingmaschine">Turingmaschine</a>, die aus einem unendlich langem
