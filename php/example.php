@@ -21,7 +21,7 @@
         <a href="#">← vor</a>
       </div>
       <div class="aln-m">
-        <a href="../php/index.php">Übersicht</a>
+        <a href="../php/">Übersicht</a>
       </div>
       <div class="aln-r">
         <a href="#">nach →</a>
