@@ -4,10 +4,10 @@
   <ul>
     <li>
       <details>
-        <summary><a href="../index.php">Übersicht</a></summary>
+        <summary><a href="../php/index.php">Übersicht</a></summary>
         <ol>
           <li>
-            <a href="../index.php#rules">Regeln</a>
+            <a href="../php/index.php#rules">Regeln</a>
           </li>
         </ol>
       </details>

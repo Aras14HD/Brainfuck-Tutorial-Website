@@ -12,7 +12,7 @@
       <p><h3>- Eine Esoterische Programmiersprache</h3></p>
     </header>
     <nav id="Index">
-      <?php include '../php/indexer.php'; ?>
+      <?php include '../php/menus.php'; ?>
     </nav>
     <main>
       <p>BF(<a lang="en">Brainf*ck</a>) ist eine Programmiersprache mit nur 8 Zeichen:<b class="code">+ - . , [ ] &lt &gt</b>. Sie Basiert auf der <a href="https://de.wikipedia.org/wiki/Turingmaschine">Turingmaschine</a>, die aus einem unendlich langem
@@ -42,9 +42,9 @@
     </main>
     <footer>
       <div class="aln-r">
-        <a href="../php/adding-de.php">Zahlen addieren →</a>
+        <a href="../php/adding.php">Zahlen addieren →</a>
       </div>
     </footer>
-    <?php include '../php/about-de.php'; ?>
+    <?php include '../php/about.php'; ?>
   </body>
 </html>

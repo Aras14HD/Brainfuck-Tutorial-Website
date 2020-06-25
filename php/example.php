@@ -11,7 +11,7 @@
       <p><h3>- unterüberschrift</h3></p>
     </header>
     <nav id="Index">
-      <?php include '../php/indexer.php'; ?>
+      <?php include '../php/menu.php'; ?>
     </nav>
     <main>
       Inhalt hier

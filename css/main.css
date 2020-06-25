@@ -1,4 +1,5 @@
 /* OPTIMIZE:  */
+/*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Mono:wght@300&display=swap');
 body {font-family: "Oxygen"}
 .code {font-family: "Roboto Mono";
@@ -6,8 +7,10 @@ body {font-family: "Oxygen"}
        border-radius: 2pt;
        padding: 2pt;
        margin: 2pt;}
+/*top Navigation*/
 #Index ul li {list-style-type: none;}
 #Index ol li {list-style: decimal;}
+/*bottom Navigation*/
 .aln-l {text-align: left;
         flex: auto;}
 .aln-r {text-align: right;
