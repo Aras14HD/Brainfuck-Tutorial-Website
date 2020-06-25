@@ -5,6 +5,6 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/Brainfuck-Tutorial-Website/');
+	header('Location: '.$uri.'/Brainfuck-Tutorial-Website/php/');
 	exit;
 ?>

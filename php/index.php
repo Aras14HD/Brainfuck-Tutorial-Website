@@ -12,41 +12,7 @@
       <p><h3>- Eine Esoterische Programmiersprache</h3></p>
     </header>
     <nav id="Index">
-      <div id="Index">
-        <details>
-          <summary>Navigation</summary>
-          <ul>
-            <li>
-              <details>
-                <summary><a href="../Brainfuck-Tutorial-Website/index.php">Übersicht</a></summary>
-                <ol>
-                  <li>
-                    <a href="../Brainfuck-Tutorial-Website/index.php#rules">Regeln</a>
-                  </li>
-                </ol>
-              </details>
-            </li>
-            <li>
-              <details>
-                <summary><a href="../Brainfuck-Tutorial-Website/php/adding-de.php">Addieren</a></summary>
-                <ol>
-                  <li>Artikel</li>
-                  <li>Artikel</li>
-                </ol>
-              </details>
-            </li>
-            <li>
-              <details>
-                <summary>Zweites Thema</summary>
-                <ol>
-                  <li>Artikel</li>
-                  <li>Artikel</li>
-                </ol>
-              </details>
-            </li>
-          </ul>
-        </details>
-      </div>
+      <?php include '../php/indexer.php'; ?>
     </nav>
     <main>
       <p>BF(<a lang="en">Brainf*ck</a>) ist eine Programmiersprache mit nur 8 Zeichen:<b class="code">+ - . , [ ] &lt &gt</b>. Sie Basiert auf der <a href="https://de.wikipedia.org/wiki/Turingmaschine">Turingmaschine</a>, die aus einem unendlich langem
@@ -76,9 +42,9 @@
     </main>
     <footer>
       <div class="aln-r">
-        <a href="../Brainfuck-Tutorial-Website/php/adding-de.php">Zahlen addieren →</a>
+        <a href="../php/adding-de.php">Zahlen addieren →</a>
       </div>
     </footer>
-    <?php include '../Brainfuck-Tutorial-Website/php/about-de.php'; ?>
+    <?php include '../php/about-de.php'; ?>
   </body>
 </html>
